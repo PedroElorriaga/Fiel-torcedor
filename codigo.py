@@ -14,7 +14,7 @@ class Automação:
         self.options = webdriver.ChromeOptions()
         # Carrega o perfil do Chromen como um default, ou você pode especificar
         self.options.add_argument(
-            r'user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Default')
+            r'user-data-dir=C:\Users\#usuario\AppData\Local\Google\Chrome\User Data\Default')
         self.chrome = webdriver.Chrome()
 
     def enter_Fiel(self, site):
@@ -49,8 +49,8 @@ class Automação:
             command_commit = self.chrome.find_element(
                 by=By.CSS_SELECTOR, value='#FormLogin > div > div:nth-child(3) > button')
 
-            command_login.send_keys('PedroElorriaga')
-            command_password.send_keys('IC4^#jjVPY*')
+            command_login.send_keys('#username')
+            command_password.send_keys('#senha')
             command_recapcha.click()
             sleep(8)
             command_commit.click()
