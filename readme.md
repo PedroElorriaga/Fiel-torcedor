@@ -6,6 +6,8 @@ aplicação em que tive a oportunidade de automatizar e
 aprender junto a isso, podendo haver alguns bugs ja 
 que o desenvolvimento não foi estruturado.
 
+
+EM DESENVOLVIMENTO
 -----------------COMO USAR-----------------------------
 
 #1 - Instale o python em sua maquina, procure pelo 
