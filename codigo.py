@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 index = 0
 
 
-class Automação:
+class Automacao:
     def __init__(self):
         # Caminho do driver, se estiver em outra pasta fevemos especificar o caminho, ex: ../../Pyprojects/
         self.driver_path = 'chromedriver.exe'
@@ -101,7 +101,7 @@ class Automação:
 
 
 if __name__ == '__main__':
-    chrome = Automação()
+    chrome = Automacao()
 
     chrome.enter_Fiel('https://www.fieltorcedor.com.br/')
     sleep(1)
